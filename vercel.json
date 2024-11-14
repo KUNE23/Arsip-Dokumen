@@ -10,6 +10,7 @@
     "env":{
         "APP_ENV":"production",
         "APP_DEBUG":"true",
+        "APP_KEY":"base64:ufRAHtUmIJEhjbiCAvg8f54aYVZlWvYrXSqNtYoc5DQ=",
         "APP_URL":"http://laravel-template.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",

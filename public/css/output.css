@@ -1,0 +1,101 @@
+/* 
+Resets
+*/
+*{
+ box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Inter',sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+/* 
+ \ BODY STYLING
+*/
+.flex{
+    display: flex;
+
+}
+.flex-none{
+    flex:none;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-col-reverse{
+    flex-direction: column-reverse;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.font-normal{
+    font-weight: normal;
+}
+.items-center{
+    align-items: center;
+}
+.items-end{
+    align-items: end;
+}
+.items-start{
+    align-items: start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: start;
+}
+.justify-end{
+    justify-content: end;
+}
+.gap-1{
+    gap:1rem;
+}
+.gap-2{
+    gap:2rem;
+}
+.gap-3{
+    gap:3rem;
+}
+.gap-4{
+    gap:4rem;
+}
+.gap-5{
+    gap:5rem
+}
+.w-full{
+    width: 100%;
+}
+.max-w-full{
+    max-width: 100%;
+}
+.h-screen{
+    height:90vh;
+}
+.w-screen{
+    width: 100vw;
+}
+.text-1xl{
+    font-size: 1em;
+}
+.text-2xl{
+    font-size: 2em;
+}
+.text-3xl{
+    font-size: 3em;
+}
+.text-center{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+
+}

@@ -24,5 +24,18 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "headers": [
+        {
+            "source": "/(.*).(css|js|map|gif|png|jpg|jpeg|svg|woff|woff2|eot|ttf)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
+        }
+    ],
+    "buildCommand": "composer install --no-dev && php artisan optimize && php artisan view:cache",
+    "outputDirectory": "public"
 }

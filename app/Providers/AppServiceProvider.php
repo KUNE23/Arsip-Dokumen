@@ -32,4 +32,14 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
+    /**
+ * Generate an asset path for the application.
+ *
+ * @param  string  $path
+ * @return string
+ */
+function secure_asset($path)
+{
+    return asset($path, true);
+}
 }
